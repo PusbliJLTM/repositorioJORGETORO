@@ -1,0 +1,101 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+figcaption,
+blockquote,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  line-height: 1;
+}
+
+/* Remove hyperlink default styles */
+a {
+  text-decoration: none;
+}
+
+/* Make images fluid */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Reset form styles to prevent inheritance */
+input,
+button,
+textarea,
+select {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Standardize form elements */
+button,
+input {
+  overflow: visible;
+}
+
+/* Normalize HTML5 display for some elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Avoid unexpected behavior in some browsers */
+pre {
+  white-space: pre-wrap;
+}
+
+/* Address width overflow and padding issues in some browsers */
+html {
+  box-sizing: border-box;
+}
+
+/* Responsive media */
+@media only screen and (max-width: 600px) {
+  /* Add your responsive styles here */
+}
